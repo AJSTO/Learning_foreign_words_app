@@ -10,3 +10,5 @@ Simple game created for learning foreign languages.
     - finding way to allow ASCII latin-2 with Google Translate API.
     - creating SQLserwer to connect for bigger base of words (now words are captured from xlsx file).
     - allow to choose categories, now category is randomly choosen from given 4.
+
+Additionaly Dockerfile to create container.
