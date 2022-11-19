@@ -75,7 +75,7 @@ Witamy w aplikacji do nauki słówek.
     # Random choice of category and words.
     def suffle_category_and_words(self):
         self.category = random.choice(self.dictionary.columns)  # choosing random category.
-        self.sample = random.sample(list(self.dictionary.index), k=1)  # k is for number of chosen words.
+        self.sample = random.sample(list(self.dictionary.index), k=5)  # k is for number of chosen words.
 
     # Method for translate word.
     def get_translate(self, word, language):
