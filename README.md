@@ -1,5 +1,5 @@
 # apk_translate_game
-Simple application created to learn foreigns worlds. Running via terminal 
+Simple application created to learn foreigns worlds. Running via terminal, API used to connect GoogleTranslateAPI
 ###
 Simple game created for learning foreign languages.
     Allow to choose target language from: EN|FR|DE.
