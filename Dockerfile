@@ -3,4 +3,4 @@ COPY . .
 RUN pip3 install -r requirements
 
 
-CMD ["python", "apka.py"]
+CMD ["python", "apk.py"]
