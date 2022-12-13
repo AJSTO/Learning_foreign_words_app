@@ -29,7 +29,7 @@ You should see this:
 ```bash
 Dockerfile		README.md		apk.py			dictionary.xlsx		requirements.txt
 ```
-Open Dockerfile and fill ENV values with values mentioned in description:
+Open Dockerfile and fill ENV value with value mentioned in description:
 ```bash
 ENV API_KEY=
 ```
