@@ -85,7 +85,7 @@ Witamy w aplikacji do nauki słówek.
             # link: https://rapidapi.com/googlecloud/api/google-translate1
             "content-type": "application/x-www-form-urlencoded",  # copied from API page.
             "Accept-Encoding": "application/gzip",  # copied from API page.
-            "X-RapidAPI-Key": "62d4a1e54emsh8383b0b77225583p1a8a90jsn30c27e399d2e",  # API key from API endpoint
+            "X-RapidAPI-Key": os.getenv('API_KEY'),  # API key from API endpoint
             "X-RapidAPI-Host": "google-translate1.p.rapidapi.com"  # API host from google translate API endpoint
         }
         payload = f"q={word}&target={language}&source=pl"  # payload to API based on chosen word and language.
