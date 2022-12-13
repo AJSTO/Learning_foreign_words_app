@@ -7,7 +7,6 @@ Simple application created to learn foreigns worlds. Running via terminal, using
 Before use you need to reginster on link: https://rapidapi.com/googlecloud/api/google-translate1 to get:
 
 - API key from API endpoint
-- API host from google translate API endpoint
 
 ## 🌲 Project tree
 ```bash
@@ -19,8 +18,9 @@ Before use you need to reginster on link: https://rapidapi.com/googlecloud/api/g
 └── requirements.txt     # necessary libraries.
 ```
 ## ⚙️ Run Locally
-- Clone the project
-- Go to the project directory and open terminal:
+Clone the project
+
+Go to the project directory and open terminal:
 Type in CLI:
 ```bash
   $ ls
@@ -28,6 +28,10 @@ Type in CLI:
 You should see this:
 ```bash
 Dockerfile		README.md		apk.py			dictionary.xlsx		requirements.txt
+```
+Open Dockerfile and fill ENV values with values mentioned in description:
+```bash
+ENV API_KEY=
 ```
 Build application image: 🚨to run this command docker should be running on your machine🚨
 ```bash
